@@ -1,5 +1,4 @@
-# undefined | `tet`
+# GitAid
+## A GitHub helper that creates basic files for you.
 
-## abc
-
-### By: undefined
+#### Under development.
