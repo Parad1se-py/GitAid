@@ -1,6 +1,7 @@
 import figlet from "figlet";
 
 export async function greeting() {
+    // Function to greet user
     console.log(`Welcome to ${figlet.textSync(
         'GitAid', {
             font: 'Rectangles',

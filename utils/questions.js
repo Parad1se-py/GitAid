@@ -1,4 +1,4 @@
-export const questions = [
+export const questions = [ // List of all the questions to be asked
 	{
 		name: 'project_name',
 		type: 'input',

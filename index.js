@@ -23,7 +23,7 @@ const userWantsToContinue = await yesOrNo(
 ); // Asks user if they want to proceed with the given info
 
 if ( userWantsToContinue == true ) {
-    createFiles(info);
+    createFiles(info); // Create the files
 } else {
-    console.clear();
+    console.clear(); // Clear the console and quit process
 }
