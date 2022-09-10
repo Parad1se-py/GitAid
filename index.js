@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 
 import chalk from "chalk";
-// import gradient from "gradient-string";
-// import chalkAnimation from "chalk-animation";
-// import { createSpinner } from "nanospinner";
 import { askInfo, yesOrNo } from "./utils/interaction.js";
 import { greeting } from "./utils/welcome.js";
 import { createFiles } from "./utils/createFiles.js";
