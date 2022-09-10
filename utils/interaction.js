@@ -27,7 +27,7 @@ async function yesOrNo(content, information) {
 			// TODO: start loading
 			return true;
 		} else if ( answer.yes_or_no.toLowerCase() == 'n' || answer.yes_or_no.toLowerCase() == 'no' ) {
-			console.log("Quitting process.");
+			console.log("Quit process.");
 			return false;
 		} else {
 			console.log("Not a valid option. Retry:");

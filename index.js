@@ -25,5 +25,5 @@ const userWantsToContinue = await yesOrNo(
 if ( userWantsToContinue == true ) {
     createFiles(info); // Create the files
 } else {
-    console.clear(); // Clear the console and quit process
+    process.exit(0); // Exit the process
 }
