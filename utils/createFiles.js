@@ -1,4 +1,4 @@
-import { appendFile, createFile } from "fs";
+import { appendFile } from "fs";
 import { createSpinner } from "nanospinner";
 import { READMEmdTemplate, gitignoreTemplate } from "../data/templates.js";
 
