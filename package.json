@@ -1,7 +1,7 @@
 {
   "name": "gitaid",
   "version": "1.0.0",
-  "description": "",
+  "description": "GitAid is a GitHub tool that helps in the creation of new GitHub repositories.",
   "main": "index.js",
   "type": "module",
   "scripts": {
