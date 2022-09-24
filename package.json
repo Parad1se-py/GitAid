@@ -8,7 +8,7 @@
     "test": "node .",
     "install": "node index.js"
   },
-  "keywords": [],
+  "keywords": ["github", "cli", "helper", "tool", "template"],
   "author": "",
   "license": "ISC",
   "dependencies": {
