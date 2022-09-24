@@ -5,7 +5,7 @@ import { READMEmdTemplate, gitignoreTemplate } from "../data/templates.js";
 
 export async function createFiles(info) {
     // create the files
-    
+
     // creating README.md
     const ReadmeMD_Spinner = createSpinner('Creating README.md').start();
     const READMEmdContent = READMEmdTemplate(info[0], info[1], info[2], info[3]);
